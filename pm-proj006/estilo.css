@@ -1,0 +1,41 @@
+.img img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-image: url(logo-playcode.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 span {
+    visibility: hidden;
+}
+
+.img h2 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.img {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 500px) {
+    .geral {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .img {
+        width: 300px;
+        padding-right: 20px;
+        float: left;
+    }
+}
+

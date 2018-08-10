@@ -1,0 +1,110 @@
+.cartao {
+     width: 55%;
+    
+}
+
+.cartao .cartoes h2 {
+    color: #777879;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.cartao ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cartao ul li {
+    list-style: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+.cartao ul li a {
+    text-decoration: none;
+    color: #c6c6c6;
+    
+}
+
+.cartao .cartoes small {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.cartao ul li:hover {
+    background-color: #f5f9fd;
+    border-radius: 3px;
+    box-shadow: 0 0 2px blue;
+}
+
+.cartao .novo fieldset {
+    border: none;
+    text-align: center;
+}
+
+.cartao .novo input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    
+}
+
+
+.cartao .novo legend {
+    color: #777879;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    }
+
+.cartao ::placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cartao .novo input.data {
+    width: 149px;
+    margin-right: 10px;
+}
+
+.cartao .novo input.cvc {
+    width: 86px;
+}
+
+.cartao .novo label {
+    display: flex;
+    margin-left: 89px;
+    font-size: 14px;
+    color:  #777879;
+}
+
+.cartao .novo label input {
+    width: 15px;
+    height: 15px;
+}
+
+.cartao .novo button {
+    width: 289px;
+    height: 44px;
+    background-color: #8bd638;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: 'muliextrabold';
+}
+
+
+

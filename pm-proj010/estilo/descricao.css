@@ -1,0 +1,28 @@
+article {
+    background-color: #ffffff;
+    border-right: 1px solid #e1e1e1;
+    height: 100vw;
+}
+
+article .content {
+    font-size: 0.938em;
+    color: #666666;    
+    padding: 30px;        
+}
+
+article .content h3 {
+    color: #d0021b;
+    font-size: 1.125em;
+    font-weight: 900;
+    border-bottom: 1px solid #d0011b;
+    padding-bottom: 5px ;
+    margin-top: 20px;
+}
+
+article .content h3 i {
+    margin-right: 10px;
+}
+
+article .content p {
+   padding-bottom: 20px;
+}
